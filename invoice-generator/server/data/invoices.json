@@ -1,0 +1,55 @@
+[
+  {
+    "id": "3cff4a4e-a03a-4071-b49f-cbfaaf5d9b91",
+    "invoiceNumber": "1234453",
+    "business": {
+      "name": "wprker",
+      "address": "Cantt kanpur",
+      "email": "ahmadwebasdc@gmail.com",
+      "phone": "987654312",
+      "taxId": "",
+      "logoData": ""
+    },
+    "client": {
+      "name": "Ahmad Waheed",
+      "email": "ahmadwebasdc@gmail.com",
+      "address": "",
+      "phone": "",
+      "taxId": ""
+    },
+    "invoiceDate": "2026-10-15",
+    "dueDate": "2026-10-15",
+    "currency": "INR",
+    "paymentTerms": "Due on receipt",
+    "reference": "",
+    "items": [
+      {
+        "description": "web developement",
+        "quantity": 7,
+        "unitPrice": 1000,
+        "taxRate": 5,
+        "discountType": "fixed",
+        "discount": 1,
+        "gross": 7000,
+        "discountAmount": 1,
+        "taxable": 6999,
+        "tax": 349.95,
+        "total": 7348.95
+      }
+    ],
+    "invoiceDiscountType": "fixed",
+    "invoiceDiscount": 0,
+    "notes": "",
+    "paymentInstructions": "",
+    "terms": "",
+    "status": "Pending",
+    "paidAt": null,
+    "subtotal": 7000,
+    "itemDiscounts": 1,
+    "taxableSubtotal": 6999,
+    "taxTotal": 349.95,
+    "total": 7348.95,
+    "createdAt": "2026-10-15T12:24:19.431Z",
+    "updatedAt": "2026-10-15T12:24:19.431Z"
+  }
+]

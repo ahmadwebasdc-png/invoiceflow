@@ -1,0 +1,17 @@
+{
+  "name": "invoice-generator-saas",
+  "version": "1.0.0",
+  "description": "Responsive single-user invoice management SaaS starter with Express and persistent JSON storage",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node --watch server/server.js",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0"
+  }
+}
