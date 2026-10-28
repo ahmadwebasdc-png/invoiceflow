@@ -15,6 +15,11 @@ const dataDir = path.resolve(process.env.DATA_DIR || path.join(__dirname,'data')
 const storage = createStorage(dataDir);
 
 app.disable('x-powered-by');
+app.use(cors({
+  origin: 'https://invoiceflow-two-rho.vercel.app',
+  methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type']
+}));
 app.use(helmet({ contentSecurityPolicy: false }));
 app.use(express.json({ limit: '1.5mb' }));
 app.get('/api/health', async (req,res,next) => {
