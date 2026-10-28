@@ -1,5 +1,6 @@
 require('dotenv').config();
 const express = require('express');
+const cors = require('cors');
 const path = require('node:path');
 const helmet = require('helmet');
 const { createStorage } = require('./services/storageService');
